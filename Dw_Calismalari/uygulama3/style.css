@@ -1,0 +1,59 @@
+/* CSS Document */
+.container
+	{
+		width:900px;
+		background-color:#FFF;	
+		margin:auto;
+	}
+.header
+	{
+		width:900px;
+		height:70px;
+		background-color:#9CC;	
+		background-image:url(heder.png);
+	}
+.menu
+	{
+			width:900px;
+			height:30px;
+			background-color:#FFF;
+			margin-top:5px;
+	}
+.menuler
+	{
+		width:172px;
+		height:30px;
+		background-color:#CC9;
+		color:#960;
+		font-weight:bold;
+		text-align:center;
+		float:left;
+		margin-left:5px;
+		padding-top:6px;
+		border:1px solid #990;
+		border-radius:10px 0px 10px 0px;
+		box-shadow:#963 10px 10px;
+	}
+.sidebar
+	{
+		width:200px;
+		height:600px;
+		background:#CCC;
+		margin-top:5px;
+		float:left;
+	}
+.icerik
+	{
+		width:695px;
+		height:600px;
+		background:#CCC;
+		margin-top:5px;
+		float:right;
+	}
+.footer
+	{
+		width:900px;
+		height:70px;
+		margin-top:5px;
+		background-color:#9CC;	
+	}

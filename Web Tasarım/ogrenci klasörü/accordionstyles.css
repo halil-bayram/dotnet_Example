@@ -1,0 +1,53 @@
+.accordion {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+ 
+   
+	overflow: hidden;
+}
+.accordion a {
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	padding: 0px 0px 0px 10px;
+	background-image:url(img/menulibg.png);
+	text-decoration: none;
+	color: #fff;
+}
+.accordion ul {
+	padding:0px;
+	margin:0px;
+	
+}
+
+.accordion ul a {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	font-size:12px;
+	background-image:none;
+	text-decoration: none;
+	color: #000;
+}
+.accordion a:hover {
+	background-image:url(img/baslikbg.png);
+	color:#fff;
+}
+.accordion article {
+	height: 0px;
+//hedeflenmemiş halde 0px yüksekliğe sahip olarak içeriğinin gizlenmesini sağlıyoruz.  padding: 0px 30px;
+	overflow:hidden;
+	line-height: 17px;
+	color: #777;
+	-webkit-transition: height 200ms ease-out;
+//bu bölüm de açılırken yaptığı kayma animasyonu. Kaldırırsak animasyonsuz açılır.  -moz-transition: height 200ms ease-out;
+	-ms-transition: height 200ms ease-out;
+	-o-transition: height 200ms ease-out;
+	transition: height 200ms ease-out;
+}
+.accordion article:target {
+	height: auto;
+	background-color:#eee;
+//:target halinde de yüksekliğini artırarak içeriği gösteriyoruz.
+}
+

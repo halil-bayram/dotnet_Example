@@ -1,0 +1,198 @@
+
+.yorum
+{
+   border:#ccc solid 1px;
+   text-align:left;
+    }
+a{
+	text-decoration:none;}
+ul li
+{
+   padding:0px;margin-left:0px;
+    }
+li a
+{
+    color:#ccc;
+    
+    }
+   li a:hover
+{
+    color:#666;
+    
+    }
+#container{
+	width:890px;
+	padding:5px;
+	border:1px solid #CCC;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#FFFFFF;}
+	
+#header{
+	width:890px;
+	height:97px;
+	background-image:url(Resimler/Tasarim/header.png);	
+	position:relative;}
+	
+.header_yazi{
+	position:absolute;
+	left:20px;
+	top:20px;
+	color:#336699;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:25px;}
+	
+.menu_bar{
+	width:890px;
+	height:30px;
+	background-color:#336699;}
+	
+.menu ul{
+	width:890px;
+	height:30px;
+	margin:0px;
+	padding:0px;}
+	
+.menu ul li{
+	width:100px;
+	text-align:center;
+	float:left;
+	list-style:none;
+	color:#E8E8E8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin-top:7px;
+	background-image:url('Resimler/Tasarim/menu_ayrac.png');
+	background-position:right;
+	background-repeat:no-repeat;
+    height: 16px;
+}
+	
+.menu ul li:hover{	
+	color:#FF9900;}
+	
+.govde{
+	padding-bottom:15px;
+	width:888px;}
+	
+.govde_sol{
+	float:left;
+	width:615px;
+    text-align: center;
+}
+	
+.govde_sag{
+	float:right;
+	width:260px;}
+.clear{
+	clear:both;}
+	
+.haber_cerceve{
+	width:285px;
+	border:1px solid #CCC;
+	margin:15px 0px 0px 0px;
+	box-shadow:4px 4px 4px #E9E9E9;
+	border-radius:10px;
+	background-color:#EAEDFB;
+    text-align: center;
+    float:left;
+    margin-left:10px;
+    ;
+}
+
+.sidebar_eleman_tut{
+	width:260px;
+	margin:15px 0px 0px 0px;
+	box-shadow:3px 3px 3px #E9E9E9;}
+	
+.sidebar_baslik{
+	width:260px;
+	background-color:#336699;
+	height:25px;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding-top:7px;
+	text-indent:10px;
+	border-radius:10px 10px 0px 0px;}
+	
+.sidebar_baslikalti{
+	width:258px;
+	border:1px solid #CCC;
+	font-size:13px;
+	color:#666666;
+	padding-bottom:5px;
+	background-color:#EAEDFB;}
+	
+	
+.sidebar_baslikalti li{
+	margin:5px 0px 0px 10px;
+	font-size:15px;
+	color:#666666;}	
+	
+.sidebar_baslikalti li:hover{	
+	font-size:15px;
+	color:#999999;}	
+	
+.yazi_resim{
+	float:left;
+	width:100px;
+	height:100px;
+	margin:10px;}
+	
+.yazi_ozet{
+	float:left;
+	width:250px;
+	margin:5px;
+	color:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:5px;
+	text-align:center;
+	}
+	
+.yazi_baslik{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#336699;
+	font-size:20px;}
+
+.yazi_alt{
+	 font-family:Arial, Helvetica, sans-serif;
+	 color:#999999;
+	 font-size:12px;}
+	 
+.footer{
+	border:1px solid #666;
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	height:60px;
+	background-color:#336699;
+	position:relative;
+	text-align:center;
+	color:#FFFFFF;
+	font-family:"Times New Roman", Times, serif;}
+	
+.footer_menu{
+	position:absolute;
+	top:10px;
+	left:230px;}
+	
+.footer_menu li{
+	float:left;
+	list-style:none;
+	color:#CCC;
+	width:90px;
+	font-size:12px;
+	border-right:1px solid #CCC;}
+	
+.footer_menu li:hover{
+	color:#FF9900;}
+	
+.footer_sakli{
+	position:absolute;
+	top:40px;
+	left:380px;
+	font-size:12px;}
+	

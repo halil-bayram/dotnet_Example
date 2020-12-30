@@ -1,0 +1,40 @@
+/* CSS Document */
+body{
+	background-image:url(images/bodybg.png);
+	background-repeat:repeat-y;
+	background-position:center;
+
+	margin-top:0px;
+	}
+.container{
+	width:400px;
+	background-color:#fff;
+	background-image:url(images/containerbg.png);
+	height:920px;
+	margin:auto;
+	margin-top:0px;
+	border:15px solid #fff;
+	border-top:none;
+	border-bottom:none;
+	position:relative;
+	
+	}
+
+.girisekrani{
+	width:470px;
+	height:200px;
+	background-image:url(images/girisbg.png);
+	position:absolute;
+	
+	left:-35px;
+	top:200px;
+	}
+.girisekraniic{
+	width:450px;
+	height:180px;
+	background-color:#FFFFFF;
+	position:absolute;
+	left:-25px;
+	top:210px;
+	border-radius:10px;
+	}

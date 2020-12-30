@@ -1,0 +1,34 @@
+/* CSS Document */
+
+.header{
+	
+	height:80px;
+	width:max;
+	background-color:#09C;
+	background-image:url(header.png)
+	
+}
+.footer{
+	
+	height:80px;
+	width:max;
+	background-color:#F6F;
+	background-image:url(footer.png);
+
+	
+	}
+.main{
+	height:620px;
+	width:20%;
+	border:none;
+	background-color:#036;
+	float:left;
+	
+	}
+.main1{
+	height:620px;
+	width:80%;
+	border:none;
+	background-color:#F90;
+	float:left;
+	}

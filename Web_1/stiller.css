@@ -1,0 +1,163 @@
+/* CSS Document */
+.container{
+	width:1024px;
+	height:auto;
+	background-color:#FFCCCC;
+	margin:auto;
+	}
+.header{
+	width:1024px;
+	height:150px;
+	background-color:#999999;
+	margin-bottom:5px;
+	border-radius:0px 0px 10px 10px;
+	}
+.fueter{
+	width:1024px;
+	height:150px;
+	background-color:#999;
+	margin-top:5px;
+	border-radius:10px 10px 0px 0px;
+	}
+.sag{
+	width:250px;
+	height:auto;
+	background-color:#69C;
+	float:left;
+	border-radius:0px 10px 10px 0px;
+	}
+.sol{
+	width:770px;
+	height:auto;
+	background-color:#69C;
+	float:right;
+	border-radius:10px 0px 0px 10px;
+	}
+.temizle{
+	clear:both;
+	}
+.sayfalar{
+	width:198px;
+	height:50px;
+	background-color:#FF9;
+	float:left;
+	margin-bottom:10px;
+	margin-left:2px;
+	margin-right:2px;
+	border-radius:7px;
+	line-height:50px;
+	color:#930;
+	text-align:center;
+	border:1px solid #990;
+	box-shadow:#963 2px 7px;
+	}
+.urunler{
+	 width:245px;
+	 height:300px;
+	 background-color:transparent;
+	 float:left;
+	 margin:2px;
+	 border-radius:10px;
+	 border:3px solid #963;
+	}
+.urunresmi{
+	width:200px;
+	height:170px;
+	background-color:#06C;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius:10px;
+	}
+.urunadı{
+	width:200px;
+	height:30px;
+	background-color:#06C;
+	margin:auto;
+	margin-bottom:30px;
+	border-radius:10px;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:30px;
+	}
+.urunekle{
+	width:100px;
+	height:40px;
+	background-color:#06C;
+	margin:auto;
+	border-radius:10px;
+	color:#FFF;
+	text-align:center;
+	line-height:40px;
+	}
+.kuladı{
+	width:200px;
+	height:30px;
+	background-color:#69C;
+	float:right;
+	margin:7px;
+	border-radius:8px;
+	text-align:center;
+	line-height:30px;
+	}
+.kulsepet{
+	width:100px;
+	height:35px;
+	background-color:#69C;
+	float:right;
+	margin-right:7px;
+	border-radius:8px;
+	text-align:center;
+	line-height:35px;
+	}
+.urunkategori{
+	width:180px;
+	height:30px;
+	background-color:transparent;
+	margin:auto;
+	margin-bottom:5px;
+	margin-top:5px;
+	border-radius:10px;
+	line-height:30px;
+	color:#FFFFFF;
+	text-align:center;
+	border:2px solid #963;
+	}
+.sayfalar a{
+	text-decoration:none;
+	color:#930;
+	font-size:20px;
+	display:block;
+	border-radius:4px;
+	}
+.sayfalar a:hover {
+	color:#993300;
+	font-weight:bold;
+}
+.urunekle a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:17px;
+	display:block;
+	border-radius:4px;
+	}
+.urunkategori a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:17px;
+	display:block;
+	border-radius:4px;
+	}
+.urunkategori a:hover{
+	background-color:#FF9;
+	color:#993300;
+	font-weight:bold;
+	border-radius:10px;
+	}
+.kulsepet a{
+	text-decoration:none;
+	color:#000;
+	font-size:15px;
+	display:block;
+	border-radius:10px;
+	}

@@ -1,0 +1,52 @@
+/* CSS Document */
+.menu {
+	background-color:#F00;
+	height:20px;
+	width:1200px;
+	position:relative;
+	margin:auto;
+}
+.menu ul {
+	list-style-type:none;
+	padding:0px;
+	position:absolute;
+}
+.menu ul {
+}
+.menu a {
+	text-decoration:none;
+	color:#F00;
+	font-weight:bold;
+	line-height:40px;
+	display:block;
+	text-align:center;
+	border-radius:0px 0px 10px 10px;
+}
+.menu a:hover {
+	background-color:#F00;
+	color:#FFFFFF;
+}
+.menu li {
+	background-color:#FFF;
+	float:left;
+	width:240px;
+	border-radius:0px 0px 10px 10px;
+}
+.menu ul li ul li {
+	float:none;
+	border-radius:0px;
+}
+.menu ul li ul{
+	display:none;
+	position:absolute;
+}
+.menu ul li:hover ul{
+	display:block;
+	
+}
+.menu ul li{
+	position:relative;
+}
+.menu ul li ul li a{
+	border-radius:0px;
+	}

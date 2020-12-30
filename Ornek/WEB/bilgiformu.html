@@ -1,0 +1,73 @@
+<html>
+<head><title>Bilgiler</title></head>
+<body>
+	<form action="gonder.html" target="post">
+	<table border="0" bgcolor="#D3DEFA">
+		<tr>
+			<td width="80" height="50" colspan="2">
+				<font color="#990000"><h2>BAÞ	VURU FORMU</h2></font>
+			</td>
+		</tr>
+		<tr>
+			<td width="120" height="50">Tc Kimli No:</td>
+			<td width="700" height="50">
+			<input type="text" name="txttc" maxlength="11">
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50">Ad Soyad:</td>
+			<td width="700" height="50">
+				<input type="text" name="txtadsoyad" maxlength="35" width="50">
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50">Üye Þifresi:</td>
+			<td width="700" height="50">
+				<input type="password" name="txtsifre">
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50">Cinsiyet:</td>
+			<td width="700" height="50">
+				<select name="cinsiyet">
+				<option>Erkek</option>
+				<option>Kýz</option>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50">Ögrenim Durumu:</td>
+			<td width="700" height="50">
+				<input type="radio" name="rdbegitim" value="lisansüstü">Lisans Üstü
+				<input type="radio" name="rdbegitim" value="lisans" src=on>Lisans
+				<input type="radio" name="rdbegitim" value="önlisans">ÖnLisans
+				<input type="radio" name="rdbegitim" value="lise ve dengi">Lise ve Dengi
+				<input type="radio" name="rdbegitim" value="ilk ögretim">Ýlk Ögretim
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50">Yabancý Dil:</td>
+			<td width="700" height="50">
+				<input type="checkbox" name="chbxingilizce" value="ingilizce" src=on>Ýngilizce
+				<input type="checkbox" name="chbxalmanca" value="almanca">Almanca
+				<input type="checkbox" name="chbxfransýzca" value="fransýzca">Fransýzca
+				<input type="checkbox" name="chbxitalyanca" value="italyanca">Ýtalyanca
+				<input type="text" name="txtdeger">Diger
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50">Adres:</td>
+			<td width="700" height="50">
+				<textarea rows="4" cols="45"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td width="80" height="50"></td>
+			<td width="700" height="50">
+				<input type="submit" value="Kaydet">
+				<input type="reset" value="Temizle">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

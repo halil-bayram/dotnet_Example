@@ -1,0 +1,75 @@
+/* CSS Document */
+.container{
+	width:1200px;
+	height:auto;
+	background-color:#CCCCCC;
+	margin:auto;
+	}
+.header{
+	width:1200px;
+	height:100px;
+	background-color:#CCCC99;
+	margin-bottom:5px;
+	}
+.sag{
+	width:245px;
+	height:auto;
+	background-color:#FC9;
+	float:right;
+	}
+.sol{
+	width:950px;
+	height:auto;
+	background-color:#FC9;
+	float:left;
+	}
+.fouter{
+	width:1200px;
+	height:100px;
+	background-color:#CCCC99;
+	margin-top:5px;
+	}
+.temizle{
+	clear:both;
+	}
+.urun{
+	width:300px;
+	height:350px;
+	background-color:#996633;
+	float:left;
+	margin:8px;
+	}
+.urunimg{
+	width:150px;
+	height:150px;
+	background-color:#CC9999;
+	margin:auto;
+	margin-top:5px;
+	}
+.urunacıklama{
+	width:250px;
+	height:130px;
+	background-color:#69F;
+	margin:auto;
+	margin-top:5px;
+	}
+.sepeteekle{
+	width:100px;
+	height:50px;
+	background-color:#009966;
+	margin:auto;
+	margin-top:5px;
+	}
+.katagori{
+	width:200px;
+	height:30px;
+	background-color:#CCCCCC;
+	margin:auto;
+	margin-top:5px;
+	}
+.sepetim{
+	height:30px;
+	width:50px;
+	background-color:#00CCFF;
+	float:right;
+	}

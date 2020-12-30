@@ -1,0 +1,36 @@
+/* CSS Document */
+.container{
+	width:625px;
+	background-color:#09C;
+	margin:auto;
+	}
+.sol{
+	width:150px;
+	background-color:#6CC;
+	float:left;
+	margin:25px;
+	}
+.sag{
+	width:400px;
+	height:400px;
+	background-color:#6CC;
+	float:left;
+	margin:25px 25px 25px 0px;
+	margin-top:190px;
+	}
+	
+.kücükresim{
+	width:100px;
+	height:100px;
+	background-color:#CCC;
+	margin:25px 25px 25px 25px;
+	}
+.radiobutton{
+	width:100px;
+	height:20px;
+	background-color:#FFFFFF;
+	margin-left:25px;
+	}
+.temizle{
+	clear:both;
+	}

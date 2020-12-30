@@ -1,0 +1,216 @@
+/* CSS Document */
+.container {
+	width:1000px;
+	margin:auto;
+}
+.header {
+	width:1000px;
+	height:173px;
+	background-image:url(bg_header.jpg);
+	position:relative;
+}
+.baslık {
+	width:315px;
+	height:65px;
+	background-image:url(logo.png);
+	position:absolute;
+	left:400px;
+	top:45px;
+	
+}
+.sepet
+{ width:100px;
+height:29px;
+background-image:url(sepet.png);
+float:left;
+background-repeat:no-repeat;
+background-position:left;
+text-align:right;
+text-align-last:center;
+text-height:20px;
+font-weight:bold;
+position:absolute;
+left:800px;
+top:30px;
+padding-top:7px;
+	}
+.menu {
+	width:700px;
+	height:50px;
+}
+.menu a {
+	text-decoration:none;
+	color:#996633;
+	display:block;
+	
+	
+}
+.menu a hover
+{ color:#FFF;
+	}
+.menu ul li {
+	width:150px;
+	height:50px;
+	float:left;
+}
+.menu ul li ul {
+	display:none;
+	float:none;
+	background-image:url(menubg.png);
+	position:absolute;
+	width:150px;
+	left:190px;
+	top:40px;
+}
+.menu ul li ul li {
+	float:none;
+	background-image:url(menubg.png);
+	}
+.menu ul li:hover ul{
+	display:block;
+	float:none;
+	color:#FFFFFF;
+}
+.menu ul {
+	list-style-type:none;
+	width:1000px;
+	height:50px;
+	position:absolute;
+	left:400px;
+	top:120px;
+	position:relative;
+}
+.menu li {
+	width:175px;
+	height:50px;
+	padding-top:11px;
+}
+.kitap {
+	width:142px;
+	height:210px;
+	background-image:url(bukre.jpg);
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	float:left;
+}
+.kitap:hover
+{
+	 transform:scale(1.1,1.1);
+	}
+.kitap1:hover
+{ transform:scale(1.1,1.1);}
+.kitap2:hover
+{ transform:scale(1.1,1.1);}
+.kitap3:hover
+{ transform:scale(1.1,1.1);}
+.kitap4:hover
+{ transform:scale(1.1,1.1);}
+.kitap5:hover
+{ transform:scale(1.1,1.1);}
+.kitap6:hover
+{ transform:scale(1.1,1.1);}
+.kitap7:hover
+{ transform:scale(1.1,1.1);}
+.kitap8:hover
+{ transform:scale(1.1,1.1);}
+.kitap9:hover
+{ transform:scale(1.1,1.1);}
+.kitap1 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(dostumcino.jpg);
+	float:left;
+}
+.kitap2 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/evliyacelebi.jpg);
+	float:left;
+}
+.kitap3 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/kahramanaskersvayk.jpg);
+	float:left;
+}
+.kitap4 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/karamazov.jpg);
+	float:left;
+}
+.raf1 {
+	width:997px;
+	height:50px;
+	background-image:url(raf.png);
+}
+.kitap5 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/mevlenavesemsten_kokulukitap.jpg);
+	float:left;
+}
+.kitap6 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/mizahimizinucustasi.jpg);
+	float:left;
+}
+.kitap7 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/psikolojiktehlike.jpg);
+	float:left;
+}
+.kitap8 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/sefiller.jpg);
+	float:left;
+}
+.kitap9 {
+	width:142px;
+	height:210px;
+	margin-top:51px;
+	margin-left:27px;
+	margin-right:27px;
+	background-image:url(kitap/siirinilkeleri.jpg);
+	float:left;
+}
+.feiture {
+	width:1000px;
+	height:101px;
+	background-image:url(footerbg.png);
+}
+.haklar {
+	width:200px;
+	height:50px;
+	margin:auto;
+	padding-top:70px;
+	color:#FFF;
+}

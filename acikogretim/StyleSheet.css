@@ -1,0 +1,32 @@
+﻿.button{
+	 width:100px;
+	 height:30px;
+	 background-color:#CC6666;
+	 position:absolute;
+	 left:600px;
+	 top:20px;
+	 /*background-image:;*/
+	}
+.container{
+	position:relative;
+	width:900px;
+	 height:70px;
+	 background-color:#999;
+	 margin:auto;
+	}
+.okulad{
+	width:400px;
+	height:50px;
+	background-color:#933;
+	 position:absolute;
+	 left:40px;
+	 top:10px;
+	}
+.onaylımıtxt{
+	 width:100px;
+	 height:30px;
+	background-color:#999;
+	  position:absolute;
+	 left:750px;
+	 top:20px;
+	}

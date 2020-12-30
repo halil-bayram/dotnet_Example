@@ -1,0 +1,173 @@
+/* CSS Document */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(img/bodybg.png);
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding: 0px;
+}
+
+.header {
+    width: 1000px;
+    height: 100px;
+    background-image: url(img/ataBayrak.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.headeryazi {
+    width: 700px;
+    height: 50px;
+    margin-top: -75px;
+    margin-left: 100px;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.menu {
+    height: 40px;
+    width: 1000px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+        .menu ul li {
+            float: left;
+            width: 120px;
+            text-align: center;
+            line-height: 40px;
+            color: #fff;
+            background-image: url(img/menulibg.png);
+            border-right: 1px solid #ccc;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: #fff;
+                display: block;
+            }
+
+.icerik {
+    width: 1000px;
+    padding-top: 20px;
+    float: left;
+}
+
+.sidebarsol {
+    width: 790px;
+    box-sizing: border-box;
+    padding: 7px;
+    float: left;
+    margin-right: 3px;
+}
+
+.baslik {
+    width: 790px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.ogrenciDetay {
+    width: 100px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+    .ogrenciDetay:nth-child(odd) {
+        margin-right: 40px;
+    }
+
+.ogrenciResim {
+    width: 90px;
+    height: 80px;
+}
+
+.ogrenciBilgi {
+    width: 90px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 11px;
+}
+
+.sidebarsag {
+    width: 200px;
+    /*box-shadow:3px 3px 3px #5e0400;*/
+    border: 1px solid #5e0400;
+    float: left;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sidebarsag_baslik {
+    width: 200px;
+    background-image: url(img/baslikbg.png);
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.girisTablo {
+    margin-left: 250px;
+}
+
+    table td {
+        width: 200px;
+    }
+
+.button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 12px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 420px;
+    box-shadow: 0 0 5px #ad1821 inset;
+    border-radius: 5px;
+}
+
+    .button:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+        background-color: #ad1821;
+    }
+
+.textbox {
+    background: white;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ad1821 inset;
+    color: #666;
+    height: 30px;
+    width: 200px;
+}

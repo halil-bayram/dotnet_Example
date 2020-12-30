@@ -1,0 +1,97 @@
+﻿body
+{
+    background-image: url(images/bodybg.png);
+    background-repeat: repeat-y;
+    background-position: center;
+    margin-top: 0px;
+}
+.container
+{
+    width: 400px;
+    background-color: #fff;
+    background-image: url(images/containerbg.png);
+    height: 920px;
+    margin: auto;
+    margin-top: 0px;
+    border: 15px solid #fff;
+    border-top: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.girisekrani
+{
+    width: 470px;
+    height: 200px;
+    background-image: url(images/girisbg.png);
+    position: absolute;
+    left: -35px;
+    top: 200px;
+}
+.girisekraniic
+{
+    width: 450px;
+    height: 180px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: -25px;
+    top: 210px;
+    border-radius: 10px;
+}
+
+.kimlikyazı
+{
+    height: 30px;
+    line-height: 30px;
+    width: auto;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+.kimlik
+{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    left: 200px;
+    top: 52px;
+    background-color: #fff;
+}
+
+.sifreyazı
+{
+    height: 30px;
+    line-height: 30px;
+    width: auto;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+
+.sifre
+{
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    left: 150px;
+    top: 82px;
+    background-color: #fff;
+}
+.tuş
+{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    left: 310px;
+    top: 83px;
+}
+
+.hata
+{
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+    position: absolute;
+    left: 80px;
+    top: 115px;
+}

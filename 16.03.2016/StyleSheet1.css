@@ -1,0 +1,51 @@
+﻿.container {
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background-image:url(images/g%C3%B6vde.png);
+	padding-bottom:100px;
+}
+.header {
+	width:1000px;
+	height:150px;
+	background-image:url(images/header.png)
+}
+.tablolar {
+	width:800px;
+	height:auto;
+	background-color:#903;
+	margin:auto;
+}
+.temizle {
+	clear:both;
+}
+.görevtalebi {
+	height:30px;
+	width:800px;
+	background-color:#999;
+}
+.katmangörevtalebi {
+	height:auto;
+	width:800px;
+	background-color:#fff;
+}
+.katmansınavadı {
+	height:auto;
+	width:800px;
+	background-color:#fff;
+}
+.katmanoturumlar {
+	height:auto;
+	width:800px;
+	background-color:#fff;
+}
+.katmanyabancıdil {
+	height:auto;
+	width:800px;
+	background-color:#fff;
+}
+.katmanokullar {
+	height:auto;
+	width:800px;
+	background-color:#fff;
+}

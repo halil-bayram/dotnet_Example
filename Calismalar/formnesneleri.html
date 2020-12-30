@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Form Araclarý</title>
+</head>
+<body>
+<table align="center">
+<!--form elemanlarý-->
+<form method="get" action="table1.html" target="_blank"><!--veriler gözüküyor ama posta cekersek gözükmez aaction özelligi butona basýldýgýnda acýlmasý gereken dosyayý gösteriyor.-->
+	<tr>
+		<td align="right">Kullanýcý Adý:</td>
+		<td><input type="text" name="txtkadi" size="10" maxlength="5"></td><!--formda oluþturacagýmýz her nesne input adý altýnda oluþturulacak-->
+	</tr>
+	<tr>
+		<td align="right">Þifre:</td>
+		<td><input type="text" name="txtsifre" size="10"></td>
+	</tr>
+	<tr>
+		<td align="right">Hobileriniz:</td>
+		<td>
+		<input type="checkbox" name="cbxkitap" value="Kitap">Kitap Okumak</br>
+		<input type="checkbox" name="cbxoyun" value="oyun">Oyun Oynamak</br>
+		<input type="checkbox" name="cbxmüzik" value="müzik">Müzik Dinlemek</br>
+		</td>
+	</tr>
+	<tr>
+		<td align="right">Ögrenim Durumu:</td>
+		<td>
+		<input type="radio" name="rdbegitim" value="ilkolkul">Ýlk Okul</br>
+		<input type="radio" name="rdbegitim" value="ortaokul">Orta Okul</br>
+		<input type="radio" name="rdbegitim" value="lise">Lise</br>
+		<input type="radio" name="rdbegitim" value="universite">Universite</br>
+		</td>
+	</tr>
+	<tr>
+		<td align="right" colspan="2"><input type="submit" value="Tamam"></td><!-- value butonun üstünde yazmasý gereken deger-->
+	</tr>
+
+</form>
+</table>
+</body>
+</html>
